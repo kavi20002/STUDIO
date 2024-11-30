@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+html{
+    scroll-behavior: smooth!important;
+}
+
 *{
     font-family: "Play", serif;
 }
@@ -13,13 +17,48 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: #e67e22;
+    background-color: #FF6122;
     border-radius: 10px;
 }
 
+/*header-area*/
 .navbar-brand img{
     height: 60px;
 }
+
+.header-outer{
+    position: sticky;
+    top: 0;
+}
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #FF6122;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px #95a5a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top-outer a{
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    text-decoration: none;
+}
+
+.fa-solid{
+    font-size: 18px;
+    color: white;
+}
+/*header-area*/
 
 .outer{
     width: 100%;
@@ -29,3 +68,14 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
+
+/*home-area*/
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://img.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg?t=st=1732948016~exp=1732951616~hmac=b5da6a8e0118f29eca338703d6f1c96fa40af42ca58d16173a535196720af98c&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*home-area*/
